@@ -1,1 +1,1 @@
-# Siddharth Sirohi's (that's me) home on the internet
+# My home on the internet

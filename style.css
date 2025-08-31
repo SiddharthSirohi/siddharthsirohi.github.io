@@ -4,18 +4,15 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     margin: 0;
     padding: 0;
-
-    /* --- Flexbox Magic is now on the BODY --- */
-    min-height: 100vh; /* Makes the body fill the entire screen height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .content {
     max-width: 650px;
-    /* This centers the block horizontally, and the top padding pushes it down from the top */
     margin: 5rem auto 0 auto;
-    padding: 0 2rem; /* Horizontal padding for smaller screens */
+    padding: 0 2rem;
 }
 
 p {
@@ -31,18 +28,29 @@ hr {
 }
 
 footer {
-    /* This tells the footer to take up all available empty space above it,
-       pushing it to the bottom of the BODY. */
     margin-top: auto; 
-    width: 100%; /* Ensures the footer spans the full page width */
+    width: 100%;
 }
 
 .signature {
     text-align: center;
-    /* Give it some nice spacing so it's not glued to the bottom edge */
     opacity: 0.8;
     padding: 0.5rem 0; 
     font-size: 0.8rem;
     font-style: normal;
     color: #595959;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-top: 2rem; 
+    }
+
+    p {
+        font-size: 1.1rem; 
+    }
+
+    .signature {
+        padding: 2rem 0;
+    }
 }

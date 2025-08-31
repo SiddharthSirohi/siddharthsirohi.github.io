@@ -43,14 +43,15 @@ footer {
 
 @media (max-width: 768px) {
     .content {
-        margin-top: 2rem; 
+        margin-top: 3rem; 
     }
 
     p {
-        font-size: 1.1rem; 
+        font-size: 1rem; 
+        line-height: 1.4;
     }
 
     .signature {
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
 }

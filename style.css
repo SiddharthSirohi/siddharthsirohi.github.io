@@ -89,7 +89,7 @@ footer {
 @media (max-width: 768px) {
     .content {
         margin-top: 3rem;
-        text-align: right;
+        text-align: left;
     }
 
     h1 {
